@@ -14,13 +14,14 @@
      limitations under the License.
 -->
 
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
     <!-- IF YOU ARE COMPILING THIS APPLICATION YOURSELF YOU NEED TO CHANGE THIS -->
     <!-- See: http://code.google.com/android/add-ons/google-apis/mapkey.html -->
     <string name="map_api_key">0GPE4Lb_ZG_rnk3YyJHd7pBAxP0BPBJvmZR_-Kw</string>
 
-    <string name="activity_sample_code">ABS: Plugins Sample</string>
+    <string name="application_name">ActionBarSherlock Maps</string>
+    <string name="activity_name">ABS: Maps</string>
     
     <string name="map_warning">If you compiled this application yourself you need to specify your own API key in res/values/strings.xml</string>
-    <string name="map_activity">Map/Simple Activity</string>
+    <string name="map_activity">Simple Activity</string>
 </resources>

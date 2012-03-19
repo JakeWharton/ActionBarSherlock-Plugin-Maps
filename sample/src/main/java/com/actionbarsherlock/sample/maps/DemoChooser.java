@@ -16,7 +16,6 @@
 
 package com.actionbarsherlock.sample.maps;
 
-import android.app.ListActivity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
@@ -24,6 +23,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
+import com.actionbarsherlock.app.SherlockListActivity;
 
 import java.text.Collator;
 import java.util.ArrayList;
@@ -33,7 +33,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class DemoChooser extends ListActivity {
+public class DemoChooser extends SherlockListActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -56,7 +56,7 @@ public class DemoChooser extends ListActivity {
         List<Map<String, Object>> myData = new ArrayList<Map<String, Object>>();
 
         Intent mainIntent = new Intent(Intent.ACTION_MAIN, null);
-        mainIntent.addCategory("com.actionbarsherlock.sample.plugins.SUPPORT4_SAMPLE_CODE");
+        mainIntent.addCategory("com.actionbarsherlock.sample.plugins.MAPS");
 
         PackageManager pm = getPackageManager();
         List<ResolveInfo> list = pm.queryIntentActivities(mainIntent, 0);

@@ -14,11 +14,13 @@ lint.xml
 *.iml
 *.ipr
 *.iws
+classes
 
 #Maven
 target
 release.properties
 pom.xml.*
+gen-external-apklibs
 
 #Ant
 build.xml
