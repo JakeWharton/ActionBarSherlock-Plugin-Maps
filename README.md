@@ -55,3 +55,4 @@ to Jake Wharton's personal repository. You can add it with the following:
 
  [1]: http://actionbarsherlock.com
  [2]: https://github.com/mosabua/maven-android-sdk-deployer
+ [3]: https://github.com/JakeWharton/ActionBarSherlock-Plugin-Maps/downloads
