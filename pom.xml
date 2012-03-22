@@ -107,13 +107,6 @@
 		</dependencies>
 	</dependencyManagement>
 
-	<repositories>
-		<repository>
-			<id>com.jakewharton</id>
-			<url>http://r.jakewharton.com/maven/release</url>
-		</repository>
-	</repositories>
-
 	<build>
 		<pluginManagement>
 			<plugins>
