@@ -6,7 +6,7 @@
 	<groupId>com.actionbarsherlock</groupId>
 	<artifactId>plugin-maps-parent</artifactId>
 	<packaging>pom</packaging>
-	<version>4.2.0</version>
+	<version>4.2.1-SNAPSHOT</version>
 
 	<name>ActionBarSherlock Plugin: Maps (Parent)</name>
 	<description>Android library for implementing the action bar design pattern using the backported sources of Ice Cream Sandwich.</description>
